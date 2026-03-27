@@ -51,4 +51,26 @@ Adam-Sport-/
 ### 2. Installation Steps
 1. **Clone the repository**
    ```bash
+2. **Import the database
+
+Create a database named adam_sport (or as configured).
+
+Import the SQL file if available – Note: No .sql file is currently present in the repository. You'll need to create the table structures based on the queries in the code.
+
+3.**Configure database connection
+
+Open auth.php (or the main connection file) and update the credentials:
+
+php
+$host = 'localhost';
+$user = 'root';
+$password = '';
+$database = 'adam_sport';
+
+4. **Run the application
+
+Place the project folder in htdocs (XAMPP) or www (WAMP).
+
+Access http://localhost/Adam-Sport-/index.php
+
    git clone https://github.com/vietphu01/Adam-Sport-.git
